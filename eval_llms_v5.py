@@ -1,8 +1,8 @@
-"""Fraud detection model evaluation — Base vs Fine-Tuned.
+"""Fraud detection model evaluation - Base vs Fine-Tuned.
 
 Metrics
 -------
-Faithfulness     : Judge LLM gives a 0.0–1.0 score via a single direct prompt.
+Faithfulness     : Judge LLM gives a 0.0-1.0 score via a single direct prompt.
                    No JSON required — the score is parsed from free text.
 Answer Relevancy : Cosine similarity between the question embedding and the
                    answer embedding. No LLM judge involved at all.
