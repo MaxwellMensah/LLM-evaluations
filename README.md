@@ -83,7 +83,7 @@ python eval_llms_v5.py
 
 ```
 
-> **Note:** I set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for a quick test, since its computationally demanding. For full benchmarks, use a higher number
+> **Note:** Set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for a quick test, since its computationally demanding. For full benchmarks, use a higher number
 
 **Output Artifacts Generated:**
 
