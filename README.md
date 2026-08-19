@@ -7,7 +7,6 @@ Built specifically to run **100% locally on Ollama**, bypassing heavy RAGAS fram
 ---
 
 ## 📁 Repository Structure
-```markdown
 ```text
 .
 ├── Modelfile                        # Ollama configuration/system prompt definition for fine-tuned model
@@ -84,7 +83,7 @@ python eval_llms_v5.py
 
 ```
 
-> **Note:** I set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for a quick smoke tests. For full benchmarks, use a higher number
+> **Note:** I set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for a quick test, since its computationally demanding. For full benchmarks, use a higher number
 
 **Output Artifacts Generated:**
 
