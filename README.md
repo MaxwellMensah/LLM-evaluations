@@ -121,5 +121,3 @@ python eval_llm_visualizer.py
 | **Net Structural System Delta ($\Delta$)** | **+0.1593** | **+0.1305** | — |
 
 ```
-
-```
