@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ Fraud Detection LLM Evaluation & Visualizer Framework
 
 A lightweight, local framework for running automated evaluation and comparative performance visualization of **Base vs. Fine-Tuned** LLMs (e.g., `llama3.2:latest` vs. `fraud-model-v4:latest`). 
@@ -8,7 +7,7 @@ Built specifically to run **100% locally on Ollama**, bypassing heavy RAGAS fram
 ---
 
 ## 📁 Repository Structure
-
+```markdown
 ```text
 .
 ├── Modelfile                        # Ollama configuration/system prompt definition for fine-tuned model
@@ -85,7 +84,7 @@ python eval_llms_v5.py
 
 ```
 
-> **Note:** Set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for full benchmarks or lower it to `3` for quick smoke tests.
+> **Note:** I set `SAMPLE_SIZE = 300` in `eval_llms_v5.py` for a quick smoke tests. For full benchmarks, use a higher number
 
 **Output Artifacts Generated:**
 
