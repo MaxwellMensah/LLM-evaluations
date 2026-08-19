@@ -7,7 +7,7 @@ Built specifically to run **100% locally on Ollama**, bypassing heavy RAGAS fram
 ---
 
 ## 📁 Repository Structure
-```text
+```markdown
 .
 ├── Modelfile                        # Ollama configuration/system prompt definition for fine-tuned model
 ├── Deployfile                       # Deployment automation configuration
@@ -119,5 +119,3 @@ python eval_llm_visualizer.py
 | **Base Baseline (`llama3.2:latest`)** | 0.6380 | 0.6152 | 300 |
 | **Fine-Tuned Candidate (`fraud-model-v4:latest`)** | **0.7973** | **0.7457** | 300 |
 | **Net Structural System Delta ($\Delta$)** | **+0.1593** | **+0.1305** | — |
-
-```
