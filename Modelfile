@@ -1,0 +1,9 @@
+FROM ./fraud_model_q4km_V4.gguf
+TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a fraud detection expert. Analyze transactions using step-by-step reasoning.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"""
+PARAMETER temperature 0.1
